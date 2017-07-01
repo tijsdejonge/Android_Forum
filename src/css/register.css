@@ -1,0 +1,36 @@
+body {
+    animation: fade 2s forwards;
+}
+
+.card {
+    background-color: #00897b;
+    padding: 10px;
+    padding-left: 70px;
+    margin-left: 40%;
+    margin-right: 45%;
+    margin-top: 10%;
+    padding-top: 40px;
+    box-shadow: -1px 4px 35px 7px rgba(0,0,0,0.45);
+    border-radius: 10px;
+}
+
+input {
+    margin-top: 10px;
+}
+
+.buttonback {
+    background-color: #00897b;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;}
+    100%{
+        opacity: 1;
+    }
+}
